@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Clicker Game</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <div class="header">
+
+        <h1 class="GPS" id="gps">GPS : 0</h1>
+
+        <a href="#" class="clickBtn" onclick="addGold('text')"><img id="clickButton" src="../images/poke.png" alt=""></a>
+        <br><br>
+        <p>You got:</p>
+        <input type="text" id="text" disabled style=text-align:center>
+        <p>Golds</p>
+        <br><br>
+        <button><a href="#" onclick="save()">Save</a></button>
+        <button><a href="#" onclick="load('text')">Load</a></button>
+        <br><br>
+
+        <div class="buy">
+            <ul>
+                <li><a onclick="buyPokemon(1)"><img class="btn" src="../images/Bulbizarre.png" alt="Slime"></a>
+                    <p id="priceBulbizarre">10 golds</p>
+                    <p id="amountBulbizarre">You own 0 Bulbizarre</p></li>
+                <li><a onclick="buyPokemon(2)"><img class="btn" src="../images/Salameche.png" alt="Undead"></a>
+                    <p id="priceSalameche">100 golds</p>
+                    <p id="amountSalameche">You own 0 Salameche</p></li>
+                <li><a onclick="buyPokemon(3)"><img class="btn" src="../images/Carapuce.png" alt="Imp"></a>
+                    <p id="priceCarapuce">500 golds</p>
+                    <p id="amountCarapuce">You own 0 Carapuce</p></li>
+                <li><p id="amountPokemon">You own 0 Pokemon</p></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

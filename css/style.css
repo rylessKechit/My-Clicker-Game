@@ -1,0 +1,91 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url("../images/backgroundP.png") center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.GPS {
+  position: relative;
+  top: -400px;
+}
+
+.clickBtn {
+  position: relative;
+  display: flex;
+  left: 600px;
+}
+
+.buy {
+  margin-left: 700px;
+  size: 125%;
+}
+
+.buy ul {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 100vh;
+  padding: 4.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.buy ul li a {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  letter-spacing: 2px;
+  margin-right: -2px;
+}
+
+.buy .btn {
+  position: relative;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.buy a img {
+  position: relative;
+  max-width: 100%;
+  transition: transform 0.3s;
+}
+
+.buy img {
+  border-color: rgb(rgb(54, 177, 226), green, blue);
+}
+
+.buy a:hover img {
+  transform: scale(1.2);
+}
+
+.btn {
+  background: none;
+  padding: 10px 0px;
+  cursor: pointer;
+  transition: 0.8s;
+}
